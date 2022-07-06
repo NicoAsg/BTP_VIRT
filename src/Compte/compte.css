@@ -1,0 +1,744 @@
+.header_compte > #main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_compte > #main > div {
+    width: 180px;
+    height: 50px;
+
+    text-align: center;
+
+    border-right: 1px solid #FF7A1A50;
+
+    cursor: pointer;
+}
+
+.header_compte > #main > div.last {
+    border: none;
+}
+
+.header_compte > #main > div.selected {
+    background: #FF7A1A50;
+}
+
+.header_compte > #main > div > span {
+    display: block;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+.header_compte > hr {
+    margin: 0;
+}
+
+#header_compte_pro > #main > #informations {
+    border-radius: 15px 0 0 0;
+}
+
+#header_compte_pro > #main > #parametres {
+    border-radius: 0 15px 0 0;
+}
+
+#header_compte_artisant > #main > div {
+    width: 300px;
+}
+
+
+.compte {
+    padding-top: 250px;
+}
+
+.compte > #main {
+    width: 900px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.compte > #main > h2 > span {
+    font-size: initial;
+    font-weight: initial;
+
+    margin-left: 20px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.compte> #main > #content {
+    background: #FF7A1A05;
+
+    border: 1px solid #FF7A1A;
+    border-radius: 15px;
+}
+
+.compte> #main > #content > #compte_infos > #profile {
+    margin-top: 50px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.compte> #main > #content > #compte_infos > #profile > #photo {
+    width: 150px;
+    height: 100px;
+    background: #00000013;
+    margin-left: 40px;
+}
+
+.compte> #main > #content > #compte_infos > #profile > #photo > #crayon_modifier {
+    width: 25px;
+
+    position: absolute;
+    left: 160px;
+}
+
+.compte> #main > #content > #compte_infos > #profile > #photo > #photo {
+    width: 60px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compte> #main > #content > #compte_infos > #profile > #infos > #nom {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.compte> #main > #content > #compte_infos > #profile > #infos > #entreprise {
+    opacity: 70%;
+}
+
+.compte> #main > #content > #compte_infos > #entreprise {
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.compte> #main > #content > #compte_infos > #entreprise > #infos {
+    display: flex;
+    gap: 250px;
+}
+
+.compte> #main > #content > #compte_infos > #entreprise > #infos > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.compte> #main > #content > #compte_infos > #entreprise > #infos > div > img {
+    width: 25px;
+}
+
+.compte> #main > #content > #compte_infos > #compte {
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+
+input[type=checkbox] {
+    appearance: none;
+}
+
+input[type=checkbox]:after {
+    content: "";
+    display: block;
+
+    width: 45px;
+    height: 16px;
+
+    border: 1px solid #00000050;
+    border-radius: 10px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+input[type=checkbox]:checked:after {
+    background: #FF7A1A;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+
+    width: 12px;
+    height: 12px;
+    
+    border: 1px solid #00000050;
+    border-radius: 50%;
+    
+    position: relative;
+    left: 3px;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(50%);
+
+    background: #FFFFFF;
+
+    transition: left 0.3s ease;
+
+    z-index: 1;
+}
+
+input[type=checkbox]:checked:before {
+    left: 30px;
+
+    transition: left 0.3s ease;
+}
+
+input[type=checkbox] ~ label {
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+.compte > #main > #content > #artisant > #content > #profile_artisant {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #profile_artisant > #description > textarea {
+    resize: none;
+
+    width: 700px;
+    height: 120px;
+    
+    border: 1px solid #FF7A1A50;
+    border-radius: 3px;
+
+    font-family: 'Segoe UI';
+    font-size: 1em;
+
+    padding: 10px;
+}
+
+.compte > #main > #content > #artisant > #content > #profile_artisant > #realisations > #content > #carousel {
+    width: 700px;
+}
+
+.compte > #main > #content > #artisant > #content > #profile_artisant > #realisations > #content > #carousel > .images_carousel {
+    width: 600px;
+
+    margin-top: 30px;
+
+    position: initial;
+    transform: initial;
+}
+
+.compte > #main > #content > #artisant > #content > #profile_artisant > #realisations > #content > #carousel > textarea {
+    resize: none;
+
+    width: 700px;
+    height: 120px;
+    
+    border: 1px solid #FF7A1A50;
+    border-radius: 3px;
+    
+    font-family: 'Segoe UI';
+    font-size: 1em;
+    
+    padding: 10px;
+}
+
+
+.compte > #main > #content > #artisant > #content > #profile_artisant > #sauvegarder > button {
+    background: #FF7A1A99;
+    
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 1.1em;
+    
+    padding: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#selection_cercle {
+    display: flex;
+    gap: 20px;
+}
+
+#selection_cercle > div {
+    border: 1px solid #FF7A1A50;
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+    
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#selection_cercle > div.selected {
+    background: #FF7A1A50;
+}
+
+#selection_cercle > div > span {
+    display: block;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client {
+    padding: 30px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes {
+    width: 850px;
+    height: 500px;
+    
+    background: white;
+
+    position: relative;
+    
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    box-shadow: 0 0 5px 0 #ff7a1a80;
+    
+    display: flex;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #liste_demandes {
+    width: 200px;
+
+    border-right: 1px solid #FF7A1A50;
+
+    overflow: auto;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #liste_demandes > .element_liste_demande {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #FF7A1A50;
+
+    cursor: pointer;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #liste_demandes > .element_liste_demande > .nom {
+    font-size: 1.1em;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #liste_demandes > .element_liste_demande > .description {
+    font-size: 0.9em;
+
+    color: #00000070;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande {
+    width: 650px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top {
+    height: 80px;
+
+    background: #FF7A1A20;
+    
+    padding: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #nom {
+    font-size: 1.2em;
+
+    font-weight: bold;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #demandeur {
+    margin-top: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #demandeur > #photo {
+    width: 70px;
+    height: 40px;
+
+    background: #00000013;
+    
+    border-radius: 3px;
+    
+    display: inline-block;
+    
+    margin-right: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #demandeur > #photo > img {
+    width: 30px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #type {
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #top > #type > span {
+    color: #00000080;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #description {
+    padding: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_demandes_client > #box_demandes > #detail_demande > #detail_demande > #description > h4 {
+    margin-top: 0;
+}
+
+
+
+
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client {
+    padding: 30px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis {
+    width: 850px;
+    
+    background: white;
+
+    position: relative;
+    
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    box-shadow: 0 0 5px 0 #ff7a1a80;
+    
+    display: flex;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #liste_avis {
+    width: 200px;
+
+    border-right: 1px solid #FF7A1A50;
+
+    overflow: auto;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #liste_avis > .element_liste_avis {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #FF7A1A50;
+
+    cursor: pointer;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #liste_avis > .element_liste_avis > .nom {
+    font-size: 1.1em;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #liste_avis > .element_liste_avis > .note {
+    font-size: 0.9em;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis {
+    width: 650px;
+    height: 500px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top {
+    height: 50px;
+
+    background: #FF7A1A20;
+    
+    padding: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top > #nom {
+    font-size: 1.2em;
+
+    font-weight: bold;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top > #utilisateur {
+    margin-top: 20px;
+
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top > #utilisateur > #photo {
+    width: 70px;
+    height: 40px;
+
+    background: #00000013;
+    
+    border-radius: 3px;
+    
+    display: inline-block;
+    
+    margin-right: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top > #utilisateur > #photo > img {
+    width: 30px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #top > #note {
+    display: block;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #description {
+    height: 370px;  
+    
+    padding: 20px;
+
+    overflow: scroll;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #description > h4 {
+    margin-top: 0;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #description > #photos {
+    display: flex;
+    gap: 20px;
+}
+
+.compte > #main > #content > #artisant > #content > #compte_avis_client > #box_avis > #detail_avis > #detail_avis > #description > #photos > img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+#header_compte_employeur > #main > div {
+    width: 300px;
+}
+
+
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi {
+    padding: 30px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres {
+    width: 850px;
+    height: 500px;
+    
+    background: white;
+
+    position: relative;
+    
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    display: flex;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #liste_offres {
+    width: 200px;
+
+    border-right: 1px solid #FF7A1A;
+
+    overflow: auto;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #liste_offres > .element_liste_offre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid rgb(255, 205, 55);
+
+    cursor: pointer;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #liste_offres > .element_liste_offre > .nom {
+    font-size: 1.1em;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #liste_offres > .element_liste_offre > .description {
+    font-size: 0.9em;
+
+    color: #00000080;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre {
+    width: 650px;
+
+    overflow: auto;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top {
+    height: 50px;
+
+    background: #FF7A1A30;
+    
+    padding: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top > #nom {
+    font-size: 1.2em;
+
+    font-weight: bold;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top > #utilisateur {
+    margin-top: 20px;
+
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top > #utilisateur > #photo {
+    width: 70px;
+    height: 40px;
+
+    background: #00000013;
+    
+    border-radius: 3px;
+    
+    display: inline-block;
+    
+    margin-right: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top > #utilisateur > #photo > img {
+    width: 30px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #top > #note {
+    display: block;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #description {
+    padding: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #description > h4 {
+    margin-top: 0;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #description > #photos {
+    display: flex;
+    gap: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #offres_emploi > #box_offres > #detail_offre > #detail_offre > #description > #photos > img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.compte > #main > #content > #compte_employeur > #content > #voir_profiles > #criteres {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #voir_profiles > #profiles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #voir_profiles > #profiles > #profile {
+    width: 250px;
+    height: 200px;
+
+    text-align: center;
+    
+    box-shadow: 0 0 3px 0 #ff7a1a80;
+    
+    border-radius: 15px;
+    
+    cursor: pointer;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #voir_profiles > #profiles > #profile > h1 {
+    font-size: 1.5em;
+    
+    margin-bottom: 5px;
+}
+
+.compte > #main > #content > #compte_employeur > #content > #voir_profiles > #profiles > #profile > h3 {
+    font-weight: 400;
+
+    margin-top: 0;
+}

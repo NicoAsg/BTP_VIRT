@@ -1,0 +1,212 @@
+#annonce_artisant {
+    width: 1000px;
+
+    padding-top: 250px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#annonce_artisant > #artisant_infos {
+    width: 900px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    background: #FFCD3710;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main {
+    display: flex;
+    gap: 20px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > img {
+    width: 80px;
+    height: 80px;
+
+    margin-top: 60px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div {
+    width: 700px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div > div > .op-80 {
+    opacity: 80%;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div > div > div > #rating {
+    margin-right: 5px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div > div > div > .star {
+    width: 20px;
+    height: 20px;
+}
+
+#annonce_artisant > #artisant_infos > #infos_main > div > div > div > div > #avis {
+    margin-left: 5px;
+
+    font-size: 0.8em;
+}
+
+#annonce_artisant > #artisant_infos > button {
+    width: 175px;
+    height: 50px;
+
+    font-size: 1.1em;
+    
+    background: #FFCD3750;
+    
+    border: none;
+    border-radius: 5px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#annonce_artisant > #main {
+    display: flex;
+    justify-content: space-between;
+
+    width: 960px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#annonce_artisant > #main > #right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 130px;
+    width: 300px;
+    
+    background: #00000010;
+    
+    margin-top: 20px;
+}
+
+#annonce_artisant > #main > #right > img {
+    height: 100px;
+
+    opacity: 80%;
+}
+
+#annonce_artisant > #main > #right > span {
+    opacity: 80%;
+
+    margin-left: 10px;
+    
+    font-size: 1.2em;
+}
+
+
+#annonce_artisant > #main > #left {
+    width: 600px;
+}
+
+#annonce_artisant > #main > #left > #tarifs > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 530px;
+    height: 55px;
+}
+
+#annonce_artisant > #main > #left > #realisation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#annonce_artisant > #main > #left > #realisation > h3 {
+    margin-bottom: 0;
+}
+
+#main > #left > #vendeur_short {
+    background: #FFCD3710;
+}
+
+#main > #left > #vendeur_short > h3 {
+    text-align: center;
+
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+#main > #left > #vendeur_short > #infos_vendeur {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#main > #left > #vendeur_short > #infos_vendeur > img {
+    width: 80px;
+    height: 80px;
+}
+
+#main > #left > #vendeur_short > #infos_vendeur > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#main > #left > #vendeur_short > #infos_vendeur > div > .nombre_annonces {
+    opacity: 80%;
+}
+
+#main > #left > #vendeur_short > #infos_vendeur > button {
+    width: 180px;
+    height: 50px;
+
+    font-size: 1.2em;
+    
+    background: #FFCD3750;
+    
+    border: none;
+    border-radius: 5px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    margin-top: 30px;
+
+    cursor: pointer;
+}

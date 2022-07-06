@@ -1,0 +1,50 @@
+#emplois {
+    width: 700px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.offre {
+    border: 1px solid rgb(255 205 55);
+    border-radius: 5px 5px 5px;
+    background-color: rgb(255 205 55 /20%);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo > div > img {
+    width: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .offre > p {
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .offre > p {
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .offre > p {
+        width: 360px;
+    }
+}

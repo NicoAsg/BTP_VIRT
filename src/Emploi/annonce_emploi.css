@@ -1,0 +1,110 @@
+#annonce_emploi {
+    width: 1000px;
+
+    padding-top: 250px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#annonce_emploi > #employeur_infos {
+    width: 900px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    background: #FFCD3710;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#annonce_emploi > #employeur_infos > #profile {
+    display: flex;
+    gap: 20px;
+}
+
+#annonce_emploi > #employeur_infos > #profile > img {
+    width: 80px;
+    height: 80px;
+
+    margin-top: 60px;
+}
+
+#annonce_emploi > #employeur_infos > #profile > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#annonce_emploi > #main {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+    width: 960px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#annonce_emploi > #main > #left > #reste {
+    display: flex;
+    gap: 100px;
+}
+
+#annonce_emploi > #main > #left > #reste > #horaires {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#annonce_emploi > #main > #right > button {
+    width: 180px;
+    height: 50px;
+
+    font-size: 1.2em;
+
+    background: #FFCD3750;
+
+    border: none;
+    border-radius: 5px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 30px;
+
+    cursor: pointer;
+}
+
+#annonce_emploi > #main > #right > #publicite {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    height: 130px;
+    width: 300px;
+
+    background: #00000010;
+
+    margin-top: 20px;
+}
+
+#annonce_emploi > #main > #right > #publicite > img {
+    height: 100px;
+}
+
+#annonce_emploi > #main > #right > #publicite > span {
+    font-size: 1.3em;
+}

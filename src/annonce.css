@@ -1,0 +1,91 @@
+/* #details_annonce {
+    width: 700px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
+}
+
+#photo > div > img {
+    width: 100%;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#infos > div {
+    text-align: left;
+}
+
+#infos > div > h2 {
+    margin-bottom: 0;
+}
+
+#infos > div > span {
+    color: gray;
+}
+
+#description {
+    text-align: left;
+    margin-top: 50px;
+}
+
+#vendor {
+    margin-top: 50px;
+    background-color: rgb(255 205 55 /20%);
+    text-align: left;
+    padding: 40px;
+}
+
+#vendor > h2 {
+    margin-top: 0;
+}
+
+#vendorInfos {
+    display: flex;
+    gap: 30px;
+}
+
+#vendorInfos > div > p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#vendorInfos > div > span {
+    color: gray;
+}
+
+#contactVendor {
+    font-size: 1.7em;
+    border: none;
+    background-color: transparent;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgb(255 205 55);
+}
+
+@media screen and (max-width: 700px) {
+    #details_annonce {
+        width: 500px;
+    }
+
+    #vendor > #vendorInfos {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #details_annonce {
+        width: 350px;
+    }
+} */

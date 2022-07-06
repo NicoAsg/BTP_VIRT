@@ -1,0 +1,284 @@
+#annonce_materiel {
+    display: flex;
+    gap: 50px;
+
+    padding-top: 250px;
+
+    width: 900px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#annonce_materiel > #main {
+    width: 550px;
+}
+
+#annonce_materiel > #side {
+    position: relative;
+}
+
+#annonce_materiel > #side > #vendeur_short {
+    width: 300px;
+    height: 270px;
+    
+    background: #FF7A1A10;
+
+    border-radius: 10px;
+}
+
+#annonce_materiel > #side > #vendeur_short > h3 {
+    text-align: center;
+
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+#annonce_materiel > #side > #vendeur_short > #infos_vendeur {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#annonce_materiel > #side > #vendeur_short > #infos_vendeur > img {
+    width: 80px;
+    height: 80px;
+}
+
+#annonce_materiel > #side > #vendeur_short > #infos_vendeur > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#annonce_materiel > #side > #vendeur_short > #infos_vendeur > div > .nombre_annonces {
+    opacity: 80%;
+}
+
+#annonce_materiel > #side > #vendeur_short > button {
+    width: 180px;
+    height: 50px;
+
+    font-size: 1.2em;
+    
+    background: #FFCD3750;
+    
+    border: none;
+    border-radius: 5px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    margin-top: 30px;
+
+    cursor: pointer;
+}
+
+#annonce_materiel > #side > .publicite {
+    width: 300px;
+    height: 130px;
+
+    background: #00000010;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+#annonce_materiel > #side > .publicite > img {
+    height: 100px;
+
+    opacity: 80%;
+}
+
+#annonce_materiel > #side > .publicite > span {
+    font-size: 1.3em;
+
+    opacity: 80%;
+}
+
+.images_carousel {
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.images_carousel > .image_principale {
+    width: 530px;
+    height: 330px;
+
+    background: #00000015;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.images_carousel > .image_principale > img {
+    width: 310px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+    
+    opacity: 50%;
+}
+
+.images_carousel > .select_carousel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 10px;
+}
+
+.images_carousel > .select_carousel > .selected {
+    border: 1px solid #FFCD37;
+}
+
+.images_carousel > .select_carousel > .image {
+    width: 100px;
+    height: 60px;
+
+    background: #00000015;
+
+    opacity: 50%;
+}
+
+.images_carousel > .select_carousel > .image > img {
+    width: 50px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+#annonce_materiel > #main > .infos_annonce {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+#annonce_materiel > #main > .infos_annonce > #left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#annonce_materiel > #main > .infos_annonce > #left > h1 {
+    margin-bottom: 0;
+}
+
+#annonce_materiel > #main > .infos_annonce > #left > #location {
+    opacity: 80%;
+}
+
+#annonce_materiel > #main > .infos_annonce > #right > img {
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+#annonce_materiel > #main > #vendeur {
+    background: #FFCD3710;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#annonce_materiel > #main > #vendeur > #infos_vendeur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#annonce_materiel > #main > #vendeur > #infos_vendeur > img {
+    width: 80px;
+    height: 80px;
+
+    margin-left: 30px;
+}
+
+#annonce_materiel > #main > #vendeur > #infos_vendeur > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-left: -90px;
+}
+
+#annonce_materiel > #main > #vendeur > #infos_vendeur > div > .nombre_annonces {
+    opacity: 80%;
+}
+
+#annonce_materiel > #main > #vendeur > #infos_vendeur > button {
+    width: 150px;
+    height: 50px;
+
+    background: #FFCD3750;
+    
+    border: none;
+    border-radius: 5px;
+
+    margin-right: 20px;
+
+    font-size: 1.2em;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur > span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur > .carousel {
+    display: flex;
+    gap: 20px;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur > .carousel > .image_annonce > div{
+    width: 150px;
+
+    background: #00000015;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur > .carousel > .image_annonce > div > img {
+    width: 100px;
+    opacity: 50%;
+}
+
+#annonce_materiel > #main > #vendeur > #annonces_vendeur > .carousel > .image_annonce > span {
+    display: block;
+}

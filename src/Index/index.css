@@ -1,0 +1,430 @@
+#index {
+    text-align: center;
+}
+
+#index > div#main {
+    /* width: 1000px; */
+
+    /* position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%); */
+
+    background: #00000050 url(http://localhost:3000/worker-ga8ac860ef_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+
+    height: 100vh;
+}
+
+
+/* Recherche */
+
+#index > #main > #input {
+    width: fit-content;
+
+    position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+}
+
+#index > #main > #input > #section {
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    background: #FF7A1A50;
+    
+    border: 1px solid #FF7A1A;
+    border-radius: 10px 0 0 10px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    font-size: 1.3em;
+    
+    color: white;
+}
+
+#index > #main > #input > #section > img {
+    width: 33px;
+}
+
+#index > #main > #input > input {
+    border: none;
+    border-bottom: 2px solid #FF7A1A;
+
+    width: 470px;
+    
+    font-size: 1.3em;
+ 
+    padding-left: 10px;
+}
+
+#index > #main > #input > #categorie {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background: #FF7A1A50;
+    
+    border: 1px solid #FF7A1A;
+    border-radius: 0 10px 10px 0;
+    
+    padding-left: 15px;
+    padding-right: 20px;
+    
+    font-size: 1.3em;
+    
+    color: white;
+}
+
+#index > #main > #input > #categorie > img {
+    width: 42px;
+}
+
+#index > #main > #rechercher {
+    width: fit-content;
+    height: fit-content;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+    background-color: white;
+    
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border: 2px solid #FF7A1A50;
+    border-radius: 15px;
+    
+    font-size: 1.3em;
+}
+
+
+/* Slogan */
+
+#index > #slogan {
+    background: #222025;
+
+    height: 20vh;
+}
+
+#index > #slogan > h1 {
+    color: white;
+
+    margin: 0;
+    
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+
+    font-size: 2em !important;
+}
+
+
+/* Nous choisir */
+
+#index > #nous_choisir {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#index > #nous_choisir > div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#index > #nous_choisir > div > div.argument {
+    width: min-content;
+}
+
+#index > #nous_choisir > div > div.argument > img {
+    width: 200px;
+}
+
+#index > #nous_choisir > div > div.argument > h3 {
+    width: 150px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#index > #nous_choisir > div > div.argument > span {
+    color: #ff7a1a;
+}
+
+#index > #nous_choisir > div > div.argument > p {
+    margin-top: 10px;
+}
+
+
+/* A propos */
+
+#index > #about {
+    display: flex;
+
+    height: 50vh;
+}
+
+#index > #about > #left {
+    background: #00000050 url(http://localhost:3000/christopher-burns-8KfCR12oeUM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+
+    width: 50vw;
+
+    color: white;
+}
+
+#index > #about > #right {
+    width: 50vw;
+    background: #c9c9c9;
+}
+
+#index > #about > #right > h1 {
+    margin-bottom: 50px;
+}
+
+#index > #about > div > div {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+}
+
+#index > #about > div > div > h1 {
+    margin-top: 0;
+}
+
+
+/* Services */
+
+#index > #services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#index > #services > h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#index > #services > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#index > #services > div > div {
+    width: 40vw;
+    height: 20vh;
+
+    border: 2px solid #ff7a1a30;
+    
+    padding: 20px;
+}
+
+#index > #services > div > div > div {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+#index > #services > div > div > div > h2 {
+    margin-top: 0;
+
+    font-weight: 500;
+}
+
+#index > #services > div > div > div > p {
+    margin-bottom: 0;
+}
+
+
+/* Contact */
+
+#index > #contact {
+    background: #00000050 url(https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1270913/662212_747480.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    height: 50vh;
+}
+
+#index > #contact > div {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+#index > #contact > div > h1 {
+    font-size: 2.5em;
+
+    margin-top: 0;
+}
+
+#index > #contact > div > h3 {
+    font-weight: 500;
+}
+
+#index > #contact > div > div {
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#index > #contact > div > div > input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#index > #contact > div > div > button {
+    width: 100px;
+
+    background: #FFFFFF80;
+    
+    border: 1px solid #ff7a1a;
+    border-radius: 30px;
+    
+    color: #ff7a1a;
+    
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #index > h1 {
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#index > #all_services {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+    width: 800px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.box_index {
+    width: 350px;
+    border-radius: 5px;
+    background-color: #FFDC3711;
+}
+
+.box_index > h2 {
+    font-size: 1.7em;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.box_index > .services_index {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box_index > .services_index > .service_elmt {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_index > .services_index > .service_elmt > img {
+    width: 60px;
+    height: 60px;
+}
+
+.box_index > .services_index > .service_elmt > p {
+    font-size: 1.5em;
+}
+
+.box_index > .link {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box_index > .link > button {
+    font-size: 1.4em;
+
+    background: #FFCD3750;
+    border: 1px solid #FFCD37;
+    border-radius: 3px;
+    
+    width: 295px;
+    height: 60px;
+
+    cursor: pointer;
+}
+
+#index > #all_services > #right_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */

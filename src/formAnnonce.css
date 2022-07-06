@@ -1,0 +1,60 @@
+#formAnnonce {
+    width: fit-content;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+#formAnnonce > h1 {
+    margin-bottom: 50px;
+}
+
+#formAnnonce > form > div {
+    margin: 20px;
+}
+
+#formAnnonce > form > div > input {
+    border: none;
+    border-bottom: 1px solid rgb(255 205 55);
+}
+
+#formAnnonce > form > div > select {
+    border: none;
+    border-bottom: 1px solid rgb(255 205 55);
+    width: 100px;
+}
+
+#formAnnonce > form > div > button {
+    border: none;
+    font-size: 1em;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgb(255 205 55);
+}
+
+#formAnnonce > form > div > textarea {
+    display: block;
+    border: 1px solid rgb(255 205 55);
+    resize: none;
+}
+
+#formAnnonce > form > button {
+    border: none;
+    font-size: 1.5em;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgb(255 205 55);
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}

@@ -1,0 +1,58 @@
+#louer {
+    width: 700px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+#title {
+    text-align: center;
+    margin: 50px;
+}
+
+.annonce {
+    display: flex;
+    border: 1px solid rgb(255 205 55);
+    border-radius: 5px 5px 5px;
+    background-color: rgb(255 205 55 /20%);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.annonce:hover {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 0 10px 0 rgb(255 205 55 /70%)
+}
+
+.annonce > .photo > div > img {
+    width: 220px;
+}
+
+@media screen and (max-width: 800px) {
+    .annonce {
+        flex-direction: column;
+    }
+    .annonce > .infos {
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%);
+      position: relative;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .annonce > .infos {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .annonce > .infos {
+    width: 350px;
+  }
+}

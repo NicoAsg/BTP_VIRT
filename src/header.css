@@ -1,0 +1,233 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link {
+    cursor: pointer;
+}
+/* 
+nav {
+    display: flex;
+    align-items: baseline;
+    gap: 25%;
+
+    font-size: 1.3em;
+
+    position: relative;
+    bottom: 20px;
+}
+
+nav > .dropdown {
+    visibility: hidden;
+
+    position: absolute;
+    left: 246px;
+    top: 148px;
+    
+    background-color: white;
+    
+    width: fit-content;
+    
+    z-index: 1;
+}
+
+nav > .dropdown > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    border-left: 1px solid #FFCD37;
+    
+    padding-left: 10px;
+}
+
+nav > .dropdown > .main_dropdown {
+    position: absolute;
+    top: -40px;
+    padding-bottom: 15px;
+
+    font-weight: bold;
+}
+
+nav > #materiel_dropdown {
+    left: 246px;
+    top: 148px;
+}
+
+nav > #artisant_dropdown {
+    left: 412px;
+    top: 148px;
+}
+
+nav > #emploi_dropdown {
+    left: 574px;
+    top: 148px;
+}
+
+nav > div > #logo {
+    height: 150px;
+    padding-left: 70px;
+    cursor: pointer;
+}
+
+nav > span {
+    position: relative;
+    bottom: 20px;
+
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+
+    transition: border-bottom 300ms ease-in-out;
+}
+
+nav > span:hover {
+    border-bottom: 1px solid black;
+
+    transition: border-bottom 300ms ease-in-out;
+}
+
+#header_left {
+    display: flex;
+    gap: 50px;
+    right: 70px;
+    position: relative;
+}
+
+#header_left > div {
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#header_left > div > img {
+    width: 50px;
+}
+
+#header_left > div > span {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    header > div > img {
+        position: absolute;
+        margin-left: 10px !important;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+*/
+
+@keyframes header_animation_down {
+    from { top: -170px; }
+    to { top: 0; }
+}
+
+@keyframes header_animation_up {
+    from { top: 0; }
+    to {
+        top: -170px;
+        display: none;
+    }
+}
+
+.d-none {
+    display: none;
+}
+
+header.header_down {
+    animation-name: header_animation_down;
+    animation-duration: 250ms;
+}
+
+header.header_up {
+    animation-name: header_animation_up;
+    animation-duration: 250ms;
+}
+
+header#header_scrolled {
+    position: fixed;
+
+    background: #91919199;
+    
+    width: 100vw;
+}
+
+header#header_scrolled > img#logo {
+    height: 80px;
+
+    position: relative;
+    top: -5px;
+}
+
+header {
+    gap: 100px;
+
+    width: 1000px;
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    z-index: 1;
+
+    color: white;
+}
+
+header > #links {
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+
+    font-size: 1.3em;
+}
+
+header > img#logo {
+    height: 200px;
+
+    cursor: pointer;
+}
+
+header > #header_left {
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+}
+
+header > #header_left > div {
+    text-align: center;
+
+    cursor: pointer;
+}
+
+header#header_scrolled > #header_left > div > img {
+    width: 45px;
+}
+
+header#header_static > #header_left > div > img {
+    width: 45px;
+}
+
+header > #header_left > div > span {
+    display: block;
+}

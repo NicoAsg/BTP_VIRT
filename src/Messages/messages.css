@@ -1,0 +1,91 @@
+#messages {
+    padding-top: 250px;
+}
+
+#messages > h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#messages > #content {
+    width: 850px;
+    height: 500px;
+    background: white;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 5px 0 #ff7a1a80;
+    display: flex;
+}
+
+#messages > #content > #list {
+    width: 200px;
+    border-right: 1px solid #FF7A1A50;
+    overflow: auto;
+}
+
+#messages > #content > #list > #messages_liste > .element {
+    overflow: hidden;
+    height: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #FF7A1A50;
+}
+
+#messages > #content > #list > #messages_liste > .element > p {
+    height: 88px;
+    color: #00000080;
+    overflow: hidden;
+}
+
+#messages > #content > #detail {
+    width: 650px;
+}
+
+#messages > #content > #detail > #conversation {
+    overflow: scroll;
+    height: -webkit-fill-available;
+}
+
+#messages > #content > #detail > #conversation > #top {
+    height: 80px;
+    background: #FF7A1A20;
+    padding: 20px;
+}
+
+#messages > #content > #detail > #conversation > #top > #utilisateur > #photo {
+    width: 70px;
+    height: 40px;
+    background: #00000013;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#messages > #content > #detail > #conversation > #top > #utilisateur > #photo > img {
+    width: 30px;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#messages > #content > #detail > #conversation > #content > .received {
+    width: 500px;
+    background: lightgray;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#messages > #content > #detail > #conversation > #content > .sent {
+    width: 500px;
+    position: relative;
+    left: 100px;
+    margin: 10px;
+    background: #FF7A1A50;
+    padding: 10px;
+    border-radius: 10px;
+}
